@@ -1,6 +1,6 @@
 {
   "name": "kirus",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "artificial intelligence",
   "main": "index.js",
   "scripts": {
@@ -11,5 +11,6 @@
     "npm"
   ],
   "author": "Kirill Morozov",
-  "license": "MIT"
+  "license": "MIT",
+  "homepage": "https://github.com/KirillMorozoff/kirus"
 }
