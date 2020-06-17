@@ -21,3 +21,11 @@ module.exports.reverse_string_two = function (str) {
 module.exports.reverse_string_three = function (str) {
     return str.split("").reduce((rev, char) => char + rev, "")
 };
+
+module.exports.reverse_string_with_recursion = function (str) {
+    if (str === "") {
+        return "";
+    } else {
+        return this.reverseStringWithRecursion(str.substr(1)) + str.charAt(0);
+    }
+};
